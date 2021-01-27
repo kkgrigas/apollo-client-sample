@@ -1,0 +1,15 @@
+{
+  "presets": [
+    "razzle/babel",
+    [
+      "@babel/preset-env",
+      {
+        "bugfixes": true,
+        "corejs": 3,
+        "exclude": ["transform-typeof-symbol"],
+        "modules": false,
+        "useBuiltIns": "usage"
+      }
+    ]
+  ]
+}

@@ -1,0 +1,5 @@
+razzle.config.js
+node_modules
+build
+src/graphql/**/types
+src/types/graphql-global-types.ts
